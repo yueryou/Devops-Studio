@@ -1,0 +1,5 @@
+{
+  "name": "DevOps Master Studio",
+  "description": "A comprehensive DevOps dashboard for release automation and SSH server management, featuring visual pipeline editing and remote file operations.",
+  "requestFramePermissions": []
+}
