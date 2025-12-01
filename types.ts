@@ -9,6 +9,10 @@ export interface ServerNode {
   id: string;
   name: string;
   host: string;
+  port: number;
+  username: string;
+  description?: string;
+  authType?: 'password' | 'privateKey';
   status: 'connected' | 'disconnected' | 'error';
   tags: string[];
 }
