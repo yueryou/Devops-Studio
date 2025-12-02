@@ -1,3 +1,4 @@
+
 export enum ViewState {
   DASHBOARD = 'DASHBOARD',
   RELEASE_AUTOMATION = 'RELEASE_AUTOMATION',
@@ -30,5 +31,5 @@ export interface PipelineStep {
   title: string;
   status: 'pending' | 'running' | 'completed' | 'failed';
   log: string[];
-  type: 'JENKINS' | 'SVN' | 'FILE_OP' | 'CLOUD' | 'PLM' | 'EXCEL' | 'NOTIFY';
+  type: 'INIT' | 'JENKINS' | 'SVN' | 'FILE_OP' | 'CLOUD' | 'PLM' | 'EXCEL' | 'NOTIFY';
 }
